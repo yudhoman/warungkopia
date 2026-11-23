@@ -1,6 +1,12 @@
 # Changelog — Republik Warungkopia
 
 ## 2026-11-23
+### Tahap 3 — Website v1 ✅
+- `index.html` + `src/` (main, city, characters, voting, styles): beranda dengan penduduk, peta interaktif, pembangunan, voting, Dewan Delapan Arah, sejarah episode, identitas negara
+- Semua isi dibaca dari `data/state.json`. Update tiap episode cukup di file itu
+- Gambar tokoh (`assets/characters/*.png`) dan ilustrasi pulau (`assets/backgrounds/hero-*.jpg`) dirender dari engine (`engine/webassets.js`)
+- Logo monokrom diperbaiki; uang 50 Arah: tempat = panel surya RS Republik
+
 ### Tahap 2 — World Building ✅
 - World Bible v2.1 jadi acuan tunggal (menggantikan v1.1). Koreksi asal-usul: nama Warungkopia ada sejak awal; warga menentukan isinya
 - Disahkan: Republik Musyawarah + Dewan Delapan Arah, siklus voting mingguan, ARAH (1 Arah = 100 Langkah) + 8 pecahan, aturan kota baru (≥10.000 warga)

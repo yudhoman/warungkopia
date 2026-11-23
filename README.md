@@ -15,6 +15,9 @@ Negara imajiner channel YouTube **@teoriwarungkopi**. Penonton adalah warga, dan
 | 2 · Short "2.500 Warga, 0 Rumah!" | 2.500 | Kawasan Permukiman 1 · RS Republik Warungkopia |
 | 3 · Video panjang 16:9 | — | pra-produksi |
 
+## Website
+🌐 https://yudhoman.github.io/warungkopia/ — isi diambil dari `data/state.json`; perbarui file itu setiap episode.
+
 ## Dokumen
 - [Project Master Prompt](docs/PROJECT_MASTER_PROMPT.md) — aturan & tahapan proyek
 - [Brand Guidelines](docs/BRAND_GUIDELINES.md) — logo, bendera, lambang, mata uang ARAH

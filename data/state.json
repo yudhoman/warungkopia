@@ -33,7 +33,11 @@
       "name": "Kawasan Permukiman 1",
       "detail": "12 rumah tropis, jalan lingkungan, taman, lampu jalan",
       "episode": 2,
-      "stage": "Permukiman"
+      "stage": "Permukiman",
+      "x": -230,
+      "y": 420,
+      "icon": "house",
+      "short": "Permukiman 1"
     },
     {
       "id": "B002",
@@ -41,7 +45,11 @@
       "name": "RS Republik Warungkopia",
       "detail": "IGD, ruang rawat, atap panel surya",
       "episode": 2,
-      "stage": "Permukiman"
+      "stage": "Permukiman",
+      "x": 280,
+      "y": -30,
+      "icon": "hospital",
+      "short": "RS Republik"
     }
   ],
   "next": {
@@ -72,6 +80,47 @@
       "format": "long-16:9",
       "status": "pra-produksi",
       "summary": "Lanjutan Episode 2"
+    }
+  ],
+  "voting": [
+    {
+      "episode": 1,
+      "question": "Bangunan apa yang pertama dibangun di Warungkopia?",
+      "method": "komentar",
+      "winner": "Perumahan & Rumah Sakit",
+      "built_in": 2
+    }
+  ],
+  "links": {
+    "youtube": "https://www.youtube.com/@teoriwarungkopi",
+    "community": "https://www.youtube.com/@teoriwarungkopi/posts",
+    "releases": "https://github.com/yudhoman/warungkopia/releases"
+  },
+  "masterplan": [
+    {
+      "name": "Pendidikan",
+      "x": -380,
+      "y": -260
+    },
+    {
+      "name": "Bandara",
+      "x": 560,
+      "y": 120
+    },
+    {
+      "name": "Pelabuhan",
+      "x": 300,
+      "y": 760
+    },
+    {
+      "name": "Energi Bersih",
+      "x": -460,
+      "y": 120
+    },
+    {
+      "name": "Inovasi",
+      "x": -20,
+      "y": -560
     }
   ]
 }

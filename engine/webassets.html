@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face{font-family:P800;src:url(p800.woff2)}@font-face{font-family:P600;src:url(p600.woff2)}body{margin:0}</style></head><body>
+<canvas id="c"></canvas><script src="lib.js"></script><script>
+const cv=document.getElementById('c'),c=cv.getContext('2d');
+window.kop=(id)=>{cv.width=400;cv.height=520;c.clearRect(0,0,400,520);
+ const pose={koko:{armL:2.5,armR:.3,expr:'happy'},bubu:{prop:'sack',armL:.9,armR:.9,elbL:1.4,elbR:1.4,expr:'happy'},nara:{prop:'clip',armL:.5,elbL:1.0,armR:.3,expr:'stern'},tiko:{armR:2.9,elbR:1.3,expr:'happy'},mimi:{armL:2.1,elbL:1.6,expr:'talk',talk:.5},moci:{armL:.9,armR:.9,elbL:2.2,elbR:2.2,expr:'stern'},jabrik:{armR:2.7,elbR:.3,expr:'happy'},bolo:{armL:1.6,expr:'proud'}}[id];
+ kopian(c,id,200,500,1.85,pose);return cv.toDataURL('image/png');};
+window.hero=(night)=>{cv.width=1600;cv.height=900;c.setTransform(1,0,0,1,0,0);
+ c.save();c.translate(800,450);c.scale(.95,.95);c.translate(-(SET.x+250),-(SET.y-180));
+ drawIsland(c,1.3,{lit:()=>night?1:0,hosLit:night?1:0,lampOn:()=>night?1:0,shadow:[22,9]});
+ if(night){nightOverlay(c,.9);c.globalCompositeOperation='lighter';LAMPS.forEach(l=>glow(c,l[0],l[1]-30,60,'rgba(255,210,120,.85)'));for(const h of HOUSES)glow(c,h.x+5,h.y-18,55,'rgba(255,200,110,.7)');glow(c,HOS.x,HOS.y-50,220,'rgba(255,210,130,.65)');}
+ c.restore();return cv.toDataURL('image/jpeg',.9);};
+window.done=true;</script></body></html>

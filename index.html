@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Republik Warungkopia — Dunia terlalu luas untuk tidak penasaran</title>
+<meta name="description" content="Negara imajiner channel YouTube @teoriwarungkopi. Warganya penonton, dan merekalah yang memilih apa yang dibangun.">
+<meta property="og:title" content="Republik Warungkopia">
+<meta property="og:description" content="Dunia terlalu luas untuk tidak penasaran.">
+<meta property="og:image" content="assets/backgrounds/hero-day.jpg">
+<link rel="icon" href="assets/brand/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Republik Warungkopia, ke atas"><img src="assets/brand/icon.svg" alt="" width="40" height="40"><span>Warungkopia</span></a>
+  <nav aria-label="Navigasi utama">
+    <a href="#peta">Peta</a><a href="#pembangunan">Pembangunan</a><a href="#voting">Voting</a><a href="#kopians">The Kopians</a><a href="#sejarah">Sejarah</a><a href="#identitas">Identitas</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <img class="hero-flag" src="assets/flag/flag.svg" alt="Bendera Republik Warungkopia" width="132">
+      <p class="eyebrow">Republik</p>
+      <h1>Warungkopia</h1>
+      <p class="slogan">Dunia terlalu luas untuk tidak penasaran.</p>
+      <div class="pop-card">
+        <span class="pop-label">Penduduk</span>
+        <span class="pop-num" id="pop">0</span>
+        <span class="pop-sub">warga · ibu kota <strong id="capital">Warungkopia</strong></span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#voting">Ikut menentukan pembangunan</a>
+        <a class="btn btn-ghost" id="yt" href="https://www.youtube.com/@teoriwarungkopi" target="_blank" rel="noopener">Tonton di YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="Ringkasan negara">
+    <div class="stat"><span class="stat-num" id="s-build">0</span><span class="stat-label">bangunan berdiri</span></div>
+    <div class="stat"><span class="stat-num" id="s-stage">—</span><span class="stat-label">tahap negara</span></div>
+    <div class="stat"><span class="stat-num" id="s-ep">0</span><span class="stat-label">episode</span></div>
+    <div class="stat"><span class="stat-num">ARAH</span><span class="stat-label">mata uang</span></div>
+  </section>
+
+  <section id="peta" class="section">
+    <div class="section-head">
+      <p class="kicker">Peta</p>
+      <h2>Pulau Warungkopia hari ini</h2>
+      <p class="lead">Yang berwarna sudah berdiri. Yang bertanda "?" masih menunggu usulan warga.</p>
+    </div>
+    <div class="map-wrap">
+      <div class="map-box"><svg id="map" viewBox="-950 -1300 1900 2600" role="img" aria-label="Peta pulau Warungkopia"></svg></div>
+      <aside class="map-info" id="map-info" aria-live="polite">
+        <h3>Pilih titik di peta</h3>
+        <p>Klik bangunan atau tanda "?" untuk melihat keterangannya.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="pembangunan" class="section alt">
+    <div class="section-head">
+      <p class="kicker">Pembangunan</p>
+      <h2>Yang sudah dibangun warga</h2>
+    </div>
+    <div class="build-grid" id="builds"></div>
+    <div class="next-card" id="next"></div>
+  </section>
+
+  <section id="voting" class="section">
+    <div class="section-head">
+      <p class="kicker">Voting warga</p>
+      <h2>Warga yang memutuskan</h2>
+      <p class="lead">Republik Musyawarah: warga memilih, Dewan Delapan Arah menjalankan.</p>
+    </div>
+    <ol class="cycle" id="cycle"></ol>
+    <div class="vote-cta">
+      <div>
+        <h3>Punya usulan bangunan?</h3>
+        <p>Tulis di komentar episode terbaru. Empat usulan teratas masuk polling Community YouTube.</p>
+      </div>
+      <a class="btn btn-primary" id="community" href="https://www.youtube.com/@teoriwarungkopi/posts" target="_blank" rel="noopener">Buka polling</a>
+    </div>
+    <h3 class="sub">Hasil voting sebelumnya</h3>
+    <div id="votes" class="votes"></div>
+  </section>
+
+  <section id="kopians" class="section alt">
+    <div class="section-head">
+      <p class="kicker">The Kopians</p>
+      <h2>Dewan Delapan Arah</h2>
+      <p class="lead">Delapan warga tetap, delapan arah mata angin, satu tugas: menjalankan pilihan warga.</p>
+    </div>
+    <div class="kop-grid" id="kops"></div>
+  </section>
+
+  <section id="sejarah" class="section">
+    <div class="section-head">
+      <p class="kicker">Sejarah</p>
+      <h2>Dari nama saja, sampai jadi kota</h2>
+    </div>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section id="identitas" class="section alt">
+    <div class="section-head">
+      <p class="kicker">Identitas negara</p>
+      <h2>Kompas Delapan Arah</h2>
+      <p class="lead">Delapan arah, delapan The Kopians, satu tanda tanya di tengah.</p>
+    </div>
+    <div class="id-grid">
+      <figure><img src="assets/flag/flag.svg" alt="Bendera Republik Warungkopia"><figcaption><strong>Bendera</strong> Segitiga biru dengan kompas putih (laut, tempat semua arah berawal) dan garis putih–kuning–oranye (fajar, siang, senja).</figcaption></figure>
+      <figure><img src="assets/brand/emblem.svg" alt="Lambang Republik Warungkopia"><figcaption><strong>Lambang</strong> Kompas delapan arah, delapan bintang, dua daun kelapa, dan pita slogan.</figcaption></figure>
+      <figure><img src="assets/currency/banknote-50.svg" alt="Uang kertas 50 Arah"><figcaption><strong>ARAH</strong> 1 Arah = 100 Langkah. Delapan pecahan, masing-masing menampilkan satu tokoh The Kopians.</figcaption></figure>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <img src="assets/brand/logo-horizontal-mono-light.svg" alt="Republik Warungkopia" width="260">
+  <p>Negara imajiner channel YouTube <a href="https://www.youtube.com/@teoriwarungkopi" target="_blank" rel="noopener">@teoriwarungkopi</a>. Serial terbit setiap Kamis.</p>
+  <p class="small">Data diperbarui: <span id="updated">—</span> · <a href="https://github.com/yudhoman/warungkopia" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

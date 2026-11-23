@@ -99,7 +99,7 @@ warungkopia/
 |---|---|---|
 | 1 — Foundation | Identitas negara, logo, bendera, lambang, mata uang, identitas Kota Warungkopia | ✅ Alternatif B disetujui |
 | 2 — World Building | World Bible, sistem pemerintahan, warga & voting, perkembangan kota | ✅ Disetujui (World Bible v2.1) |
-| 3 — Digital Foundation | Website awal, peta, profil karakter, dashboard pembangunan | — |
+| 3 — Digital Foundation | Website awal, peta, profil karakter, dashboard pembangunan | ✅ Website v1 (GitHub Pages) |
 | 4 — Development | Fondasi animasi serial, sistem episode, dokumentasi | Sebagian (engine & episode Short sudah ada) |
 
 Untuk setiap tahap: jelaskan konsep → beri alternatif bila perlu → tunjukkan visual/mockup → tunggu persetujuan → simpan hasil final ke repo → catat di `CHANGELOG.md`.
