@@ -81,6 +81,6 @@ The Kopians: Koko, Bubu, Nara, Tiko, Mimi, Moci, Pak Jabrik, Pak Bolo (Character
 6. Desain tokoh mengikuti Character Sheet; perubahan harus disetujui.
 7. Bendera: hanya putih, biru, kuning, oranye; tanpa hitam; tanpa cangkir atau biji kopi.
 8. Tidak meniru negara, tokoh, atau simbol nyata.
-9. Setiap episode ditutup dengan ajakan warga mengusulkan atau memilih.
+9. Setiap episode menyebut premis "follow = jadi warga" di 3 detik pertama, dan ditutup dengan ajakan follow (jadi warga ke-N) serta ajakan mengusulkan atau memilih.
 10. Yang berstatus PROPOSAL tidak boleh tampil sebagai fakta di video.
 11. Kalau ada pertentangan antardokumen, **WORLD_BIBLE.md versi terbaru** yang berlaku.

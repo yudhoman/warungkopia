@@ -2,6 +2,13 @@
 
 Standar untuk semua video panjang berikutnya (±5 menit). Short "2.500 Warga, 0 Rumah!" adalah versi dasar.
 
+## 0. WAJIB di setiap video WarungKopia (pelajaran Episode 2)
+Episode 2 ditonton sampai 65% tapi hanya menghasilkan ±5 follower, karena tidak ada ajakan "follow = jadi warga".
+- [ ] Detik 0–3: sebut premisnya. Contoh: "Setiap orang yang follow channel ini otomatis jadi warga negara ini."
+- [ ] Penghitung warga tampil di layar sepanjang video
+- [ ] Penutup: "Follow sekarang, kamu warga ke-[N+1], dan suaramu ikut menentukan apa yang dibangun."
+- [ ] Baris pertama deskripsi + komentar tersemat: "Follow = resmi jadi warga Warungkopia"
+
 ## 1. Tokoh The Kopians
 - [x] Character Sheet v1.0 dibuat dari engine → `assets/characters/The_Kopians_Character_Sheet.png` (render ulang: `node engine/sheetshot.js`)
 - [ ] Tampak samping untuk jalan/lari (bukan hanya tampak depan)
