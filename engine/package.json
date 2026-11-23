@@ -1,0 +1,1 @@
+{ "name": "warungkopia-engine", "private": true, "scripts": { "render": "node render.js", "preview": "node preview.js 1.8 21 39 56" }, "dependencies": { "playwright": "1.63.0" } }

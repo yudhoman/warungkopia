@@ -1,0 +1,9 @@
+node_modules/
+engine/out/
+engine/prev/
+engine/*.wav
+engine/*.npy
+engine/*.m4a
+engine/vid.mp4
+engine/list.txt
+*.mp4

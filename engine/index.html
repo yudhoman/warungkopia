@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P800;src:url(p800.woff2);font-weight:800}
+@font-face{font-family:P600;src:url(p600.woff2);font-weight:600}
+html,body{margin:0;background:#000}canvas{display:block}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script src="lib.js"></script>
+<script src="scenes.js"></script>
+<script>
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+// ---------- subtitles
+const SEGS = [
+ [0.05,4.90,"Dalam seminggu, Warungkopia kedatangan 569 warga baru."],
+ [5.42,6.54,"Total penduduk sekarang:"],[6.83,8.11,"2.500."],
+ [8.77,9.74,"Masalahnya…"],[10.08,12.41,"pulau ini belum punya satu rumah pun."],
+ [12.96,14.32,"Warga tidur di pasir."],[14.84,16.95,"Bubu tidur memeluk karung beras."],
+ [17.55,20.21,"Jadi minggu ini, sesuai permintaan kalian,"],[20.47,21.90,"pembangunan dimulai."],
+ [22.46,22.97,"Pertama:"],[23.26,24.58,"Kawasan Permukiman."],
+ [24.98,27.18,"Dua belas rumah tropis, jalan,"],[27.43,29.00,"taman, dan lampu jalan."],
+ [29.42,31.02,"Atapnya tinggi dan miring."],[31.42,32.52,"Hujan cepat turun,"],[32.78,34.45,"udara panas naik keluar."],
+ [35.08,35.51,"Kedua,"],[35.77,37.29,"yang paling banyak diminta:"],[37.70,39.78,"Rumah Sakit Republik Warungkopia."],
+ [40.19,41.77,"Lantai satu IGD."],[42.16,43.61,"Lantai dua ruang rawat."],[44.03,44.48,"Di atap,"],[44.79,45.57,"panel surya."],
+ [46.19,49.77,"Malam itu, lampu kota menyala untuk pertama kalinya."],
+ [50.22,53.07,"Peta Warungkopia resmi bertambah dua titik."],
+ [53.68,54.65,"Warga Warungkopia,"],[54.98,57.20,"bangunan apa yang harus dibangun minggu depan?"]];
+const KEY = new Set(['569','2.500','satu','rumah','pun','dua','belas','igd','panel','surya','sakit','titik','permukiman','depan','tropis','beras']);
+function syl(w){ if(/569/.test(w))return 10; if(/2\.500/.test(w))return 7; if(/IGD/.test(w))return 3; const m=w.toLowerCase().match(/[aiueo]+/g); return Math.max(1,m?m.length:1); }
+const CHUNKS=[];
+for(const [a,b,txt] of SEGS){
+  const ws=txt.split(' '); const grp=[];
+  for(let i=0;i<ws.length;i++){ const clean=ws[i].replace(/[^\wÀ-ÿ.]/g,''); if(clean.length<=3 && i<ws.length-1 && !/IGD/.test(ws[i])){ ws[i+1]=ws[i]+' '+ws[i+1]; continue;} grp.push(ws[i]); }
+  const tot=grp.reduce((s,w)=>s+w.split(' ').reduce((q,x)=>q+syl(x),0),0); let acc=0;
+  grp.forEach(w=>{ const n=w.split(' ').reduce((q,x)=>q+syl(x),0); CHUNKS.push({t0:a+(b-a)*acc/tot,t1:a+(b-a)*(acc+n)/tot,w}); acc+=n; });
+}
+CHUNKS.forEach((ch,i)=>{ const nx=CHUNKS[i+1]; ch.end = nx && nx.t0 - ch.t1 < .5 ? nx.t0 : ch.t1+.25; });
+function subtitle(c,t){
+  const ch=CHUNKS.find(x=>t>=x.t0&&t<x.end); if(!ch)return;
+  const k=eo(seg(t,ch.t0,ch.t0+.09)), s=lerp(.82,1,k);
+  c.save(); c.translate(W/2,1382); c.scale(s,s);
+  const words=ch.w.split(' '); c.font=F(800,90); c.textBaseline='middle';
+  const widths=words.map(w=>c.measureText(w).width), sp=c.measureText(' ').width, tw=widths.reduce((a,b)=>a+b,0)+sp*(words.length-1);
+  let x=-tw/2;
+  words.forEach((w,i)=>{ const clean=w.toLowerCase().replace(/[^a-z0-9.]/g,'').replace(/\.$/,''); const col=KEY.has(clean)?C.yellow:'#fff';
+    c.textAlign='left'; c.lineJoin='round'; c.strokeStyle=C.navy; c.lineWidth=18; c.strokeText(w,x,0); c.fillStyle=col; c.fillText(w,x,0); x+=widths[i]+sp; });
+  c.restore();
+}
+// ---------- overlays
+const grain=document.createElement('canvas'); grain.width=540; grain.height=960;
+(function(){const g=grain.getContext('2d'),d=g.createImageData(540,960),r=R(1);for(let i=0;i<d.data.length;i+=4){const v=r()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255;}g.putImageData(d,0,0);})();
+function finish(c,t){
+  // grain
+  c.save(); c.globalAlpha=.045; c.globalCompositeOperation='overlay'; const o=Math.floor(t*30)%4; c.drawImage(grain,-o*20,-o*13,W+80,H+52); c.restore();
+  // vignette
+  const v=c.createRadialGradient(W/2,H/2,H*.3,W/2,H/2,H*.75); v.addColorStop(0,'rgba(0,0,0,0)'); v.addColorStop(1,'rgba(10,10,35,.38)'); c.fillStyle=v; c.fillRect(0,0,W,H);
+  // hook title
+  if(t<3.3){ const k=back(seg(t,.05,.35)), out=seg(t,2.9,3.3); c.save(); c.globalAlpha=1-out; c.translate(W/2,260); c.scale(k,k);
+    outlined(c,'2.500 WARGA,',0,-55,100,'#fff',C.navy,20); outlined(c,'0 RUMAH!',0,60,118,C.yellow,C.navy,22); c.restore(); }
+  // population counter (S1-S2)
+  if(t>.4 && t<8.6){ const n=Math.round(lerp(1931,2500,eio(seg(t,1.6,7.4)))); const lock=t>7.4; const k=back(seg(t,.4,.7))*(1-seg(t,8.3,8.6));
+    const y=t<3.3?470:lerp(470,300,eo(seg(t,3.3,3.8)));
+    chip(c,W/2,y,'PENDUDUK  '+n.toLocaleString('id-ID'),lock?C.yellow:'#fff',C.navy,58,k*(lock?1+.12*Math.sin(seg(t,7.4,7.8)*PI):1));
+    const pk=seg(t,2.7,3.0), pf=seg(t,4.6,5.0); if(pk>0&&pf<1) chip(c,W/2+250,y+95,'+569',C.orange,'#fff',50,back(pk)*(1-pf),.08);
+    confetti(c,7.4,t,70,3,W/2,y);
+  }
+  subtitle(c,t);
+  // watermark
+  c.save(); c.font=F(800,34); c.textAlign='center'; c.textBaseline='middle'; c.lineJoin='round'; c.strokeStyle='rgba(27,31,75,.75)'; c.lineWidth=8; c.strokeText('@teoriwarungkopi',W/2,1790); c.fillStyle='rgba(255,255,255,.9)'; c.fillText('@teoriwarungkopi',W/2,1790);
+  if(t>53.4){ const k=back(seg(t,53.6,53.9)); c.translate(W/2+190,1786); c.scale(k,k); rr(c,-20,-14,40,32,8,'#fff'); c.strokeStyle='#fff'; c.lineWidth=5; c.beginPath(); c.arc(22,2,9,-PI/2,PI/2); c.stroke(); rr(c,-14,-8,28,6,2,'#8a5a35'); for(let i=0;i<2;i++){c.strokeStyle='rgba(255,255,255,.8)';c.lineWidth=4;c.beginPath();const o=Math.sin(t*4+i)*4;c.moveTo(-6+i*12,-22);c.quadraticCurveTo(-12+i*12+o,-34,-6+i*12,-46);c.stroke();} }
+  c.restore();
+}
+function render(t){
+  ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha=1; ctx.filter='none'; ctx.globalCompositeOperation='source-over';
+  ctx.fillStyle='#000'; ctx.fillRect(0,0,W,H);
+  const s=SC.find(x=>t>=x[1]&&t<x[2])||SC[SC.length-1];
+  ctx.save(); window[s[0]](ctx,t); ctx.restore();
+  ctx.filter='none'; ctx.globalAlpha=1;
+  finish(ctx,t);
+}
+window.frameJPG=(t)=>{render(t);return cv.toDataURL('image/jpeg',.92).split(',')[1];};
+</script></body></html>
