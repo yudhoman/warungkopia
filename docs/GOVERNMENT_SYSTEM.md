@@ -12,7 +12,7 @@ Status: ✅ **RESMI** — Model 1 *Republik Musyawarah* disetujui 23 Nov 2026.
 ## Model 1: Republik Musyawarah (detail)
 
 ### Majelis Warga
-Seluruh warga (follower). Hak warga: mengusulkan (komentar) dan memilih (polling).
+Seluruh warga (subscriber). Hak warga: mengusulkan (komentar) dan memilih (polling).
 
 ### Dewan Delapan Arah
 Delapan The Kopians, masing-masing memegang satu arah mata angin dan satu bidang:

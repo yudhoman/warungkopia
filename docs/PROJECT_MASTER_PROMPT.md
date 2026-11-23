@@ -20,7 +20,7 @@ Semua hasil final disimpan dan diorganisasi di repository GitHub:
 
 Filosofi: Warungkopia adalah dunia tempat rasa ingin tahu menjadi kekuatan utama. Setiap warga dapat berpendapat, mengusulkan ide, dan ikut menentukan masa depan negaranya.
 
-Penonton YouTube Teori Warung Kopi (@teoriwarungkopi) adalah warga Republik Warungkopia. Jumlah follower dapat menjadi representasi jumlah warga, tetapi jangan mengasumsikan satu follower selalu sama dengan satu warga aktif dalam sistem interaktif tanpa keputusan lebih lanjut.
+Penonton YouTube Teori Warung Kopi (@teoriwarungkopi) adalah warga Republik Warungkopia. Jumlah subscriber dapat menjadi representasi jumlah warga, tetapi jangan mengasumsikan satu subscriber selalu sama dengan satu warga aktif dalam sistem interaktif tanpa keputusan lebih lanjut.
 
 ## 2. SISTEM PERKEMBANGAN NEGARA
 

@@ -22,7 +22,7 @@ Dokumen turunan: [GOVERNMENT_SYSTEM](GOVERNMENT_SYSTEM.md) · [CITY_DEVELOPMENT]
 | Mata uang | ARAH (1 Arah = 100 Langkah) |
 | Pemerintahan | Republik Musyawarah — Majelis Warga + Dewan Delapan Arah |
 | Arsitektur | Tropical modern |
-| Warga | Follower channel YouTube @teoriwarungkopi |
+| Warga | Subscriber channel YouTube @teoriwarungkopi |
 
 ## 2. Filosofi ✅
 Rasa ingin tahu adalah kekuatan utama negara. Warga tidak hanya menonton: mereka mengusulkan, memilih, dan melihat negaranya tumbuh dari keputusan mereka sendiri. Negara ini tidak pernah "selesai". Ia dibangun satu keputusan demi satu keputusan, bersama warganya.
@@ -55,7 +55,7 @@ Mulai Episode 3, serial ini berformat video panjang 16:9. Identitas negara (Komp
 **Republik Musyawarah.** Warga memutuskan lewat voting (Majelis Warga), lalu The Kopians menjalankannya sebagai **Dewan Delapan Arah**. Belum ada presiden karena negara masih muda. Pemilihan presiden disimpan untuk episode besar di masa depan.
 
 ## 7. Kewarganegaraan ✅
-- **Warga**: setiap follower channel. Jumlah penduduk = jumlah follower saat episode dibuat.
+- **Warga**: setiap subscriber channel. Jumlah penduduk = jumlah subscriber saat episode dibuat.
 - **Warga Perintis**: 1.931 warga pertama (sebutan kehormatan, tanpa daftar nama).
 - **Warga Aktif**: yang ikut voting atau mengusulkan di komentar. Hanya dipakai di cerita, tidak dihitung per orang.
 - Tidak ada data pribadi warga yang disimpan atau ditampilkan.
@@ -77,10 +77,10 @@ The Kopians: Koko, Bubu, Nara, Tiko, Mimi, Moci, Pak Jabrik, Pak Bolo (Character
 2. Warungkopia selalu ibu kota.
 3. Slogan tidak berubah.
 4. Bangunan yang sudah berdiri tetap ada dan tetap di tempatnya, kecuali cerita menjelaskan perubahannya.
-5. Jumlah penduduk mengikuti data follower.
+5. Jumlah penduduk mengikuti data subscriber.
 6. Desain tokoh mengikuti Character Sheet; perubahan harus disetujui.
 7. Bendera: hanya putih, biru, kuning, oranye; tanpa hitam; tanpa cangkir atau biji kopi.
 8. Tidak meniru negara, tokoh, atau simbol nyata.
-9. Setiap episode menyebut premis "follow = jadi warga" di 3 detik pertama, dan ditutup dengan ajakan follow (jadi warga ke-N) serta ajakan mengusulkan atau memilih.
+9. Setiap episode menyebut premis "subscribe = jadi warga" di 3 detik pertama, dan ditutup dengan ajakan subscribe (jadi warga ke-N) serta ajakan mengusulkan atau memilih.
 10. Yang berstatus PROPOSAL tidak boleh tampil sebagai fakta di video.
 11. Kalau ada pertentangan antardokumen, **WORLD_BIBLE.md versi terbaru** yang berlaku.
