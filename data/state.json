@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-23",
+  "country": "Republik Warungkopia",
+  "capital": "Kota Warungkopia",
+  "slogan": "Dunia terlalu luas untuk tidak penasaran.",
+  "currency": { "name": "ARAH", "code": "ARH" },
+  "stage": "Foundation",
+  "population": [
+    { "date": "2026-11-16", "value": 1931 },
+    { "date": "2026-11-23", "value": 2500 }
+  ],
+  "cities": [
+    { "id": "C001", "name": "Kota Warungkopia", "capital": true, "founded": "2026-11-23" }
+  ],
+  "buildings": [
+    { "id": "B001", "city": "C001", "name": "Kawasan Permukiman 1", "detail": "12 rumah tropis, jalan lingkungan, taman, lampu jalan", "episode": "short-2500", "stage": "Foundation" },
+    { "id": "B002", "city": "C001", "name": "RS Republik Warungkopia", "detail": "IGD, ruang rawat, atap panel surya", "episode": "short-2500", "stage": "Foundation" }
+  ],
+  "next": { "status": "menunggu usulan warga", "episode": "video panjang 16:9" }
+}

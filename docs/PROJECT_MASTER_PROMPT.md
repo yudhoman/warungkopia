@@ -98,7 +98,7 @@ warungkopia/
 | Tahap | Isi | Status |
 |---|---|---|
 | 1 — Foundation | Identitas negara, logo, bendera, lambang, mata uang, identitas Kota Warungkopia | ✅ Alternatif B disetujui |
-| 2 — World Building | World Bible, sistem pemerintahan, warga & voting, perkembangan kota | ⏳ Berikutnya |
+| 2 — World Building | World Bible, sistem pemerintahan, warga & voting, perkembangan kota | 🟡 Draf siap, menunggu persetujuan |
 | 3 — Digital Foundation | Website awal, peta, profil karakter, dashboard pembangunan | — |
 | 4 — Development | Fondasi animasi serial, sistem episode, dokumentasi | Sebagian (engine & episode Short sudah ada) |
 
