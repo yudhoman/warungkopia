@@ -10,7 +10,7 @@ Standar untuk semua video panjang berikutnya (±5 menit). Short "2.500 Warga, 0 
 - [ ] Ekspresi tambahan: kaget, malu, marah lucu, menangis haru
 
 ## 2. Visual & lingkungan
-- [ ] Format 16:9 (1920x1080) dengan komposisi ulang semua scene
+- [ ] Format 16:9 (1920x1080) dengan komposisi ulang semua scene — DITETAPKAN: semua video panjang 16:9
 - [ ] Interior baru: dalam rumah, lobi RS, ruang rapat warga, warung
 - [ ] Cuaca & waktu: hujan, angin, senja, malam, kabut pagi
 - [ ] Pulau lebih detail: tekstur pantai, sungai mengalir, burung, kendaraan lewat, penduduk berjalan di jalan
@@ -41,7 +41,7 @@ Standar untuk semua video panjang berikutnya (±5 menit). Short "2.500 Warga, 0 
 - [ ] Thumbnail dari frame terbaik + judul hook
 
 ## Workflow tiap episode
-1. Kumpulkan usulan warga dari komentar / polling
+1. Kumpulkan usulan warga dari komentar / polling (usulan episode panjang pertama: masuk minggu depan)
 2. Konsep + naskah + storyboard per bab → disetujui
 3. Rekam voiceover (ElevenLabs)
 4. Render per bab → review → revisi
