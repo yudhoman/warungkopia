@@ -3,18 +3,75 @@
   "country": "Republik Warungkopia",
   "capital": "Warungkopia",
   "slogan": "Dunia terlalu luas untuk tidak penasaran.",
-  "currency": { "name": "ARAH", "code": "ARH" },
+  "currency": {
+    "name": "ARAH",
+    "code": "ARH"
+  },
   "stage": "Permukiman",
   "population": [
-    { "date": "2026-11-16", "value": 1931 },
-    { "date": "2026-11-23", "value": 2500 }
+    {
+      "date": "2026-11-16",
+      "value": 1931
+    },
+    {
+      "date": "2026-11-23",
+      "value": 2500
+    }
   ],
   "cities": [
-    { "id": "C001", "name": "Warungkopia", "capital": true, "founded": "2026-11-23" }
+    {
+      "id": "C001",
+      "name": "Warungkopia",
+      "capital": true,
+      "founded": "2026-11-23"
+    }
   ],
   "buildings": [
-    { "id": "B001", "city": "C001", "name": "Kawasan Permukiman 1", "detail": "12 rumah tropis, jalan lingkungan, taman, lampu jalan", "episode": "short-2500", "stage": "Permukiman" },
-    { "id": "B002", "city": "C001", "name": "RS Republik Warungkopia", "detail": "IGD, ruang rawat, atap panel surya", "episode": "short-2500", "stage": "Permukiman" }
+    {
+      "id": "B001",
+      "city": "C001",
+      "name": "Kawasan Permukiman 1",
+      "detail": "12 rumah tropis, jalan lingkungan, taman, lampu jalan",
+      "episode": 2,
+      "stage": "Permukiman"
+    },
+    {
+      "id": "B002",
+      "city": "C001",
+      "name": "RS Republik Warungkopia",
+      "detail": "IGD, ruang rawat, atap panel surya",
+      "episode": 2,
+      "stage": "Permukiman"
+    }
   ],
-  "next": { "status": "menunggu usulan warga", "episode": "video panjang 16:9" }
+  "next": {
+    "status": "pra-produksi",
+    "episode": 3,
+    "format": "video panjang 16:9"
+  },
+  "episodes": [
+    {
+      "no": 1,
+      "format": "short",
+      "population": 1931,
+      "summary": "Ibu kota masih kosong, hanya nama; warga diajak menentukan bangunan pertama"
+    },
+    {
+      "no": 2,
+      "format": "short",
+      "date": "2026-11-23",
+      "population": 2500,
+      "summary": "Perumahan & rumah sakit dibangun",
+      "built": [
+        "B001",
+        "B002"
+      ]
+    },
+    {
+      "no": 3,
+      "format": "long-16:9",
+      "status": "pra-produksi",
+      "summary": "Lanjutan Episode 2"
+    }
+  ]
 }

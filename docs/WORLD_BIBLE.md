@@ -36,13 +36,14 @@ Rasa ingin tahu adalah kekuatan utama negara. Warga tidak hanya menonton: mereka
 
 Larangan kontinuitas: jangan menceritakan Warungkopia sebagai tempat "tak bernama" atau "baru ditemukan", dan jangan menceritakan warga "memberi nama" negara atau ibu kotanya.
 
-## 4. Kronologi ✅
-| Waktu | Peristiwa |
-|---|---|
-| Pertengahan Nov 2026 | Republik Warungkopia dimulai; ibu kota Warungkopia masih tanah kosong; 1.931 warga |
-| 23 Nov 2026 | Warga mencapai 2.500. Bangunan pertama berdiri sesuai permintaan warga: **Kawasan Permukiman 1** dan **RS Republik Warungkopia** (Short "2.500 Warga, 0 Rumah!") |
-| 23 Nov 2026 | Identitas negara ditetapkan: Kompas Delapan Arah, bendera, lambang, mata uang ARAH. Sistem Republik Musyawarah dan Dewan Delapan Arah disahkan. |
-| Akhir Nov 2026 | Voting pertama dengan siklus resmi → video panjang 16:9 |
+## 4. Kronologi & episode ✅
+| # | Format | Waktu | Penduduk | Isi |
+|---|---|---|---|---|
+| Episode 1 | Short | Pertengahan Nov 2026 | 1.931 | Ibu kota Warungkopia masih kosong, hanya ada namanya. Warga diajak menentukan bangunan pertama. |
+| Episode 2 | Short | 23 Nov 2026 | 2.500 | Jawaban warga: perumahan dan rumah sakit. Kawasan Permukiman 1 dan RS Republik Warungkopia dibangun ("2.500 Warga, 0 Rumah!"). |
+| Episode 3 | **Video panjang 16:9** | Akhir Nov 2026 | — | Melanjutkan Episode 2. Bangunan berikutnya mengikuti usulan warga. |
+
+Mulai Episode 3, serial ini berformat video panjang 16:9. Identitas negara (Kompas Delapan Arah, bendera, lambang, ARAH) dan Republik Musyawarah ditetapkan 23 Nov 2026 dan mulai tampil di Episode 3.
 
 ## 5. Geografi & peta ✅
 - Warungkopia adalah satu pulau tropis: pegunungan di utara, danau di tengah, pantai di selatan.

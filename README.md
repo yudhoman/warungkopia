@@ -11,7 +11,9 @@ Negara imajiner channel YouTube **@teoriwarungkopi**. Penonton adalah warga, dan
 ## Status negara
 | Episode | Penduduk | Dibangun |
 |---|---|---|
-| Short "2.500 Warga, 0 Rumah!" | 2.500 | Kawasan Permukiman 1 (12 rumah, jalan, taman, lampu) · RS Republik Warungkopia |
+| 1 · Short | 1.931 | — (ibu kota masih kosong; warga diajak mengusulkan) |
+| 2 · Short "2.500 Warga, 0 Rumah!" | 2.500 | Kawasan Permukiman 1 · RS Republik Warungkopia |
+| 3 · Video panjang 16:9 | — | pra-produksi |
 
 ## Dokumen
 - [Project Master Prompt](docs/PROJECT_MASTER_PROMPT.md) — aturan & tahapan proyek
