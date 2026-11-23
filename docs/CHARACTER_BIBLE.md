@@ -2,7 +2,7 @@
 
 ✅ Referensi visual: `assets/characters/The_Kopians_Character_Sheet.png` (v1.0). Kepala besar, badan mungil, tanpa garis tepi, pipi merah muda, mata titik.
 
-| Tokoh | Watak ✅ | Ciri visual ✅ | Peran di negara 🟡 | Kebiasaan / humor 🟡 |
+| Tokoh | Watak ✅ | Ciri visual ✅ | Peran di Dewan Delapan Arah ✅ | Kebiasaan / humor ✅ |
 |---|---|---|---|---|
 | **Koko** | Optimis, selalu semangat | Topi jerami, kaos oranye | Pembangunan & Kerja Warga | Selalu orang pertama yang melompat; sering terlalu cepat mulai |
 | **Bubu** | Polos, lucu, selalu lapar | Topi hijau, badan bulat | Pangan & Pasar | Membawa karung beras ke mana-mana; menilai semua hal dari makanannya |
@@ -13,7 +13,7 @@
 | **Pak Jabrik** | Nelayan tua, cerita luar biasa | Rambut jabrik putih, janggut, rompi | Kelautan & Pelabuhan | Setiap ceritanya dimulai "Dulu, waktu laut masih..." |
 | **Pak Bolo** | Warga senior, sok tahu | Kumis putih, peci, batik coklat | Penasihat Tetua | Menunjuk arah yang salah dengan sangat yakin |
 
-## Dinamika antartokoh 🟡
+## Dinamika antartokoh ✅
 - **Nara vs Koko**: aturan vs langsung kerja
 - **Moci vs Pak Bolo**: data vs "katanya"
 - **Mimi + Bubu**: duo penyebar kabar (dan pencari makanan)

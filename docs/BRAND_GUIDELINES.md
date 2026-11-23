@@ -53,8 +53,8 @@ Medali biru bundar dengan kompas delapan arah, lingkaran putus-putus kuning (jal
 - Nama: **ARAH** · simbol: huruf A dengan panah ke utara (`symbol.svg`)
 - Filosofi: setiap uang menunjukkan arah tujuan pembangunan
 - Pecahan usulan: koin 1 · 5 · 10 — kertas 20 · 50 · 100 · 500
-- Tiap uang kertas menampilkan satu tokoh The Kopians dan satu tempat di peta (contoh: 50 Arah — Tiko, Alun-alun Kompas)
-- Status: nama ARAH ikut Alternatif B; pecahan dan tokoh per lembar masih PROPOSAL (dirinci di `CURRENCY_SYSTEM.md`, Tahap 2)
+- Tiap uang kertas menampilkan satu tokoh The Kopians dan satu tempat di peta (contoh: 50 Arah — Tiko, panel surya RS Republik)
+- Status: ✅ resmi — 1 Arah = 100 Langkah; pecahan & tokoh di `CURRENCY_SYSTEM.md`
 
 ## Kota Warungkopia — `assets/brand/city-gate-kota-warungkopia.svg`
-Gerbang dua pilar putih beralas oranye, lengkung biru, papan nama navy-kuning "KOTA WARUNGKOPIA · IBU KOTA REPUBLIK WARUNGKOPIA", dan medali kompas di puncak tiap pilar. PROPOSAL: alun-alun kota berbentuk mawar angin.
+Gerbang dua pilar putih beralas oranye, lengkung biru, papan nama navy-kuning "KOTA WARUNGKOPIA · IBU KOTA REPUBLIK WARUNGKOPIA", dan medali kompas di puncak tiap pilar. Alun-alun berbentuk mawar angin: ide untuk tahap Ibu Kota, dibangun hanya kalau dipilih warga.
