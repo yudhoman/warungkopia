@@ -4,7 +4,7 @@
 
 **DUNIA TERLALU LUAS UNTUK TIDAK PENASARAN.**
 
-Negara imajiner channel YouTube **@teoriwarungkopi**. Penonton adalah warga, dan merekalah yang mengusulkan serta memilih apa yang dibangun berikutnya. Ibu kota: **Kota Warungkopia**. Serial mingguan, terbit setiap **Kamis**.
+Negara imajiner channel YouTube **@teoriwarungkopi**. Penonton adalah warga, dan merekalah yang mengusulkan serta memilih apa yang dibangun berikutnya. Ibu kota: **Warungkopia**. Serial mingguan, terbit setiap **Kamis**.
 
 <p align="center"><img src="assets/flag/flag.svg" width="240" alt="Bendera Republik Warungkopia"></p>
 

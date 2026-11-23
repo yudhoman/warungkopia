@@ -15,7 +15,7 @@ Dokumen turunan: [GOVERNMENT_SYSTEM](GOVERNMENT_SYSTEM.md) · [CITY_DEVELOPMENT]
 | | |
 |---|---|
 | Negara | Republik Warungkopia |
-| Ibu kota | Kota Warungkopia — ibu kota permanen |
+| Ibu kota | **Warungkopia** — ibu kota permanen (sebutan lengkap di papan/narasi: Kota Warungkopia) |
 | Slogan | **Dunia terlalu luas untuk tidak penasaran.** |
 | Identitas visual | Kompas Delapan Arah ([Brand Guidelines](BRAND_GUIDELINES.md)) |
 | Bendera | Segitiga biru + kompas putih, garis putih–kuning–oranye; tanpa hitam, tanpa cangkir/biji kopi |
@@ -28,26 +28,26 @@ Dokumen turunan: [GOVERNMENT_SYSTEM](GOVERNMENT_SYSTEM.md) · [CITY_DEVELOPMENT]
 Rasa ingin tahu adalah kekuatan utama negara. Warga tidak hanya menonton: mereka mengusulkan, memilih, dan melihat negaranya tumbuh dari keputusan mereka sendiri. Negara ini tidak pernah "selesai". Ia dibangun satu keputusan demi satu keputusan, bersama warganya.
 
 ## 3. Asal-usul ✅
-- **Warungkopia sudah bernama Warungkopia sejak episode pertama.** Nama itu tidak muncul belakangan dan tidak dicetuskan oleh siapa pun di dalam cerita.
-- Di awal, Warungkopia adalah **tanah kosong**. Namanya sudah ada, wilayahnya ada, warganya ada, tetapi belum ada bangunan apa pun.
+- Sejak episode pertama, nama negaranya sudah **Republik Warungkopia** dan ibu kotanya sudah **Warungkopia**. Keduanya tidak muncul belakangan dan tidak dicetuskan oleh siapa pun di dalam cerita.
+- Di awal, ibu kota Warungkopia masih **tanah kosong**: namanya ada, wilayahnya ada, warganya ada, tetapi belum ada bangunan apa pun.
 - Penonton channel adalah warganya: **1.931 warga** di awal, lalu **2.500 warga** seminggu kemudian.
-- Karena belum ada apa-apa, kreator mengajak warga **menentukan sendiri apa yang dibangun**. Usulan pertama terbanyak adalah perumahan dan rumah sakit. Keduanya menjadi bangunan pertama yang berdiri, dan di situlah Kota Warungkopia sebagai ibu kota mulai terbentuk.
-- Inilah inti cerita serial ini: **negara yang namanya sudah ada, tetapi isinya ditentukan warganya.**
+- Karena belum ada apa-apa, kreator mengajak warga **menentukan sendiri apa yang dibangun**. Usulan pertama terbanyak adalah perumahan dan rumah sakit. Keduanya menjadi bangunan pertama yang berdiri di ibu kota Warungkopia.
+- Inilah inti cerita serial ini: **negara dan ibu kota yang namanya sudah ada, tetapi isinya ditentukan warganya.**
 
-Larangan kontinuitas: jangan menceritakan Warungkopia sebagai pulau "tak bernama" atau "baru ditemukan", dan jangan menceritakan warga "memberi nama" negara ini.
+Larangan kontinuitas: jangan menceritakan Warungkopia sebagai tempat "tak bernama" atau "baru ditemukan", dan jangan menceritakan warga "memberi nama" negara atau ibu kotanya.
 
 ## 4. Kronologi ✅
 | Waktu | Peristiwa |
 |---|---|
-| Pertengahan Nov 2026 | Warungkopia dimulai sebagai tanah kosong; 1.931 warga |
+| Pertengahan Nov 2026 | Republik Warungkopia dimulai; ibu kota Warungkopia masih tanah kosong; 1.931 warga |
 | 23 Nov 2026 | Warga mencapai 2.500. Bangunan pertama berdiri sesuai permintaan warga: **Kawasan Permukiman 1** dan **RS Republik Warungkopia** (Short "2.500 Warga, 0 Rumah!") |
 | 23 Nov 2026 | Identitas negara ditetapkan: Kompas Delapan Arah, bendera, lambang, mata uang ARAH. Sistem Republik Musyawarah dan Dewan Delapan Arah disahkan. |
 | Akhir Nov 2026 | Voting pertama dengan siklus resmi → video panjang 16:9 |
 
 ## 5. Geografi & peta ✅
 - Warungkopia adalah satu pulau tropis: pegunungan di utara, danau di tengah, pantai di selatan.
-- **Peta masterplan** adalah visi akhir dan sudah disetujui kreator. Nama-nama di peta itu (pulau, danau, unsur alam lain) berlaku, **kecuali** label ibu kota "Kopiantara" (yang berlaku: **Kota Warungkopia**) dan bendera merah-putih di peta (yang berlaku: bendera Kompas Delapan Arah).
-- Kondisi sekarang: Kota Warungkopia (Permukiman 1 + RS) di barat daya pulau, dekat pantai. Sisanya masih hutan dan tanah kosong.
+- **Peta masterplan** adalah visi akhir dan sudah disetujui kreator. Nama-nama di peta itu (pulau, danau, unsur alam lain) berlaku, **kecuali** label ibu kota "Kopiantara" (yang berlaku: **Warungkopia**) dan bendera merah-putih di peta (yang berlaku: bendera Kompas Delapan Arah).
+- Kondisi sekarang: ibu kota Warungkopia (Permukiman 1 + RS) di barat daya pulau, dekat pantai. Sisanya masih hutan dan tanah kosong.
 - Di peta video, kawasan masterplan yang belum dibangun digambar abu-abu dengan tanda "?".
 
 ## 6. Pemerintahan ✅ → [GOVERNMENT_SYSTEM.md](GOVERNMENT_SYSTEM.md)
@@ -63,7 +63,7 @@ Larangan kontinuitas: jangan menceritakan Warungkopia sebagai pulau "tak bernama
 - Kota dibangun bertahap; tidak boleh tiba-tiba lengkap.
 - Setiap episode menghasilkan sesuatu yang terlihat di peta.
 - Yang dibangun selalu hasil usulan dan voting warga.
-- **Kota baru boleh ada** setelah penduduk mencapai 10.000 dan Kota Warungkopia sudah di tahap Ibu Kota. Namanya hanya dari usulan dan voting warga (aturan "satu kota saja" di v1.1 dicabut).
+- **Kota baru boleh ada** setelah penduduk mencapai 10.000 dan Kota Warungkopia sudah di tahap Ibu Kota. Namanya hanya dari usulan dan voting warga (aturan "satu kota saja" di v1.1 dicabut). Kota baru tidak boleh memakai nama Warungkopia.
 
 ## 9. Ekonomi & mata uang ✅ → [CURRENCY_SYSTEM.md](CURRENCY_SYSTEM.md)
 ARAH (kode ARH), 1 Arah = 100 Langkah. Delapan pecahan, masing-masing menampilkan satu tokoh The Kopians.
@@ -72,8 +72,8 @@ ARAH (kode ARH), 1 Arah = 100 Langkah. Delapan pecahan, masing-masing menampilka
 The Kopians: Koko, Bubu, Nara, Tiko, Mimi, Moci, Pak Jabrik, Pak Bolo (Character Sheet v1.0).
 
 ## 11. Aturan kontinuitas ✅
-1. Nama **Warungkopia ada sejak awal**; yang dibangun bersama warga adalah isinya.
-2. Kota Warungkopia selalu ibu kota.
+1. Nama negara **Republik Warungkopia** dan ibu kota **Warungkopia** ada sejak awal; yang dibangun bersama warga adalah isinya.
+2. Warungkopia selalu ibu kota.
 3. Slogan tidak berubah.
 4. Bangunan yang sudah berdiri tetap ada dan tetap di tempatnya, kecuali cerita menjelaskan perubahannya.
 5. Jumlah penduduk mengikuti data follower.

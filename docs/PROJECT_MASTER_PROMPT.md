@@ -15,7 +15,7 @@ Semua hasil final disimpan dan diorganisasi di repository GitHub:
 ## 1. FILOSOFI UTAMA
 
 - Nama negara: **REPUBLIK WARUNGKOPIA**
-- Ibu kota: **KOTA WARUNGKOPIA** — kota pertama, tempat republik bermula, selalu menjadi ibu kota.
+- Ibu kota: **WARUNGKOPIA** — ibu kota pertama dan permanen (sebutan lengkap: Kota Warungkopia).
 - Slogan resmi: **"DUNIA TERLALU LUAS UNTUK TIDAK PENASARAN."**
 
 Filosofi: Warungkopia adalah dunia tempat rasa ingin tahu menjadi kekuatan utama. Setiap warga dapat berpendapat, mengusulkan ide, dan ikut menentukan masa depan negaranya.
