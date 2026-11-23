@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P800;src:url(p800.woff2);font-weight:800}@font-face{font-family:P600;src:url(p600.woff2);font-weight:600}
+body{margin:0}</style></head><body><canvas id="c" width="2400" height="3000"></canvas>
+<script src="lib.js"></script><script>
+const c=document.getElementById('c').getContext('2d');
+function draw(){
+ const SW=2400,SH=3000;
+ const g=c.createLinearGradient(0,0,0,SH);g.addColorStop(0,'#f4f1ea');g.addColorStop(1,'#ece4d2');c.fillStyle=g;c.fillRect(0,0,SW,SH);
+ c.fillStyle=C.navy;c.fillRect(0,0,SW,230);
+ c.font=F(800,96);c.fillStyle=C.yellow;c.textAlign='left';c.textBaseline='middle';c.fillText('THE KOPIANS',90,100);
+ c.font=F(600,40);c.fillStyle='#fff';c.fillText('Character Sheet v1.0 · Warga tetap Kota Warungkopia · @teoriwarungkopi',90,180);
+ const L=[
+  ['koko','KOKO','Optimis, selalu semangat','Topi jerami · kaos oranye'],
+  ['bubu','BUBU','Polos, lucu, selalu lapar','Topi hijau · badan bulat'],
+  ['nara','NARA','Perfeksionis, taat aturan','Sanggul · clipboard · peluit'],
+  ['tiko','TIKO','Penemu, otak teknik','Kacamata bulat · rambut acak'],
+  ['mimi','MIMI','Suka gosip, tahu semua kabar','Hijab ungu · baju pink'],
+  ['moci','MOCI','Cerdas, kritis, suara akal sehat','Rambut bob · kaos hijau tosca'],
+  ['jabrik','PAK JABRIK','Nelayan tua, cerita luar biasa','Rambut jabrik putih · rompi'],
+  ['bolo','PAK BOLO','Warga senior, sok tahu','Kumis putih · peci · batik coklat'],
+ ];
+ const cw=SW/4,ch=1335;
+ L.forEach((d,i)=>{
+  const col=i%4,row=Math.floor(i/4),x0=col*cw,y0=260+row*ch;
+  c.fillStyle='#fff';c.beginPath();c.roundRect(x0+24,y0+20,cw-48,ch-40,36);c.fill();
+  c.strokeStyle='rgba(27,31,75,.12)';c.lineWidth=4;c.stroke();
+  // big pose
+  ell(c,x0+cw/2,y0+760,170,30,'rgba(255,209,102,.5)');
+  const pose={koko:{armL:2.5,armR:.3,expr:'happy'},bubu:{prop:'sack',armL:.9,armR:.9,elbL:1.4,elbR:1.4,expr:'happy'},nara:{prop:'clip',armL:.5,elbL:1.0,armR:.3,expr:'stern'},tiko:{armR:2.9,elbR:1.3,expr:'happy'},mimi:{armL:2.1,elbL:1.6,expr:'talk',talk:.5},moci:{armL:.9,armR:.9,elbL:2.2,elbR:2.2,expr:'stern'},jabrik:{armR:2.7,elbR:.3,expr:'happy'},bolo:{armL:1.6,expr:'proud'}}[d[0]];
+  kopian(c,d[0],x0+cw/2,y0+760,2.45,pose);
+  // name
+  c.textAlign='center';c.textBaseline='middle';c.font=F(800,64);c.fillStyle=C.navy;c.fillText(d[1],x0+cw/2,y0+840);
+  c.font=F(600,30);c.fillStyle=C.orange;c.fillText(d[2],x0+cw/2,y0+895);
+  c.fillStyle='#6a6a80';c.font=F(600,26);c.fillText(d[3],x0+cw/2,y0+940);
+  // expressions
+  const ex=[['happy','senang'],['wow','kaget'],['worried','bingung'],['sleep','tidur']];
+  ex.forEach((e,j)=>{ const ex0=x0+80+j*((cw-160)/3);
+    c.save();c.beginPath();c.arc(ex0,y0+1080,72,0,TAU);c.fillStyle='#f4f1ea';c.fill();c.clip();
+    kopian(c,d[0],ex0,y0+1080+156,.85,{expr:e[0],shadow:false});c.restore();
+    c.font=F(600,22);c.fillStyle='#6a6a80';c.fillText(e[1],ex0,y0+1175);});
+  // swatches
+  const P=CH[d[0]]; const sw=[P.skin,P.shirt,P.pants,P.hijab||P.hairC||(P.hat==='straw'?'#ecc874':'#3e9a52')].filter(Boolean);
+  sw.forEach((s,j)=>{const sx=x0+cw/2-(sw.length-1)*40+j*80;circ(c,sx,y0+1250,26,s);c.strokeStyle='rgba(0,0,0,.15)';c.lineWidth=3;c.beginPath();c.arc(sx,y0+1250,26,0,TAU);c.stroke();});
+ });
+ c.textAlign='center';c.font=F(600,30);c.fillStyle='#6a6a80';
+ c.fillText('Aturan: kepala besar · badan mungil · tanpa garis tepi · pipi merah muda · mata titik · warna & aksesori tetap di semua episode',SW/2,SH-30);
+}
+document.fonts.load('800 40px P800').then(()=>document.fonts.load('600 40px P600')).then(()=>{draw();window.done=true;});
+</script></body></html>

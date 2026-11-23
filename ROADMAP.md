@@ -3,7 +3,7 @@
 Standar untuk semua video panjang berikutnya (±5 menit). Short "2.500 Warga, 0 Rumah!" adalah versi dasar.
 
 ## 1. Tokoh The Kopians
-- [ ] Desain dicocokkan dengan character sheet resmi (Pak Jabrik, Mimi, Tiko, Koko, Moci, Bubu, Nara, Pak Bolo)
+- [x] Character Sheet v1.0 dibuat dari engine → `assets/The_Kopians_Character_Sheet.png` (render ulang: `node engine/sheetshot.js`)
 - [ ] Tampak samping untuk jalan/lari (bukan hanya tampak depan)
 - [ ] Gerak mulut saat tokoh berdialog, kedip mata acak, napas
 - [ ] Lebih banyak pose: menunjuk, memanjat, mengangkat, terpeleset, berpelukan, berlutut
