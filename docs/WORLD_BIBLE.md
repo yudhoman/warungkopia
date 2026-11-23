@@ -1,9 +1,11 @@
 # WORLD BIBLE — Republik Warungkopia
-Versi 2.0 (draf Tahap 2) · 23 Nov 2026
+**Versi 2.1 · 23 Nov 2026 · acuan resmi tunggal**
+
+> Dokumen ini **menggantikan semua World Bible sebelumnya** (termasuk v1.1). Kalau ada catatan, prompt, atau dokumen lain yang bertentangan dengan isi file ini, yang berlaku adalah file ini.
 
 Label status:
-- ✅ **RESMI**: sudah disetujui kreator, tidak boleh diubah tanpa persetujuan
-- 🟡 **PROPOSAL**: usulan, belum dikunci
+- ✅ **RESMI**: disetujui, tidak berubah tanpa persetujuan kreator
+- 🟡 **PROPOSAL**: usulan, belum boleh dipakai sebagai fakta di video
 
 Dokumen turunan: [GOVERNMENT_SYSTEM](GOVERNMENT_SYSTEM.md) · [CITY_DEVELOPMENT](CITY_DEVELOPMENT.md) · [CURRENCY_SYSTEM](CURRENCY_SYSTEM.md) · [CHARACTER_BIBLE](CHARACTER_BIBLE.md) · [BRAND_GUIDELINES](BRAND_GUIDELINES.md)
 
@@ -13,68 +15,71 @@ Dokumen turunan: [GOVERNMENT_SYSTEM](GOVERNMENT_SYSTEM.md) · [CITY_DEVELOPMENT]
 | | |
 |---|---|
 | Negara | Republik Warungkopia |
-| Ibu kota | Kota Warungkopia — kota pertama, ibu kota permanen |
+| Ibu kota | Kota Warungkopia — ibu kota permanen |
 | Slogan | **Dunia terlalu luas untuk tidak penasaran.** |
-| Identitas visual | Kompas Delapan Arah (lihat Brand Guidelines) |
-| Bendera | Segitiga biru + kompas putih, garis putih–kuning–oranye |
-| Mata uang | ARAH |
+| Identitas visual | Kompas Delapan Arah ([Brand Guidelines](BRAND_GUIDELINES.md)) |
+| Bendera | Segitiga biru + kompas putih, garis putih–kuning–oranye; tanpa hitam, tanpa cangkir/biji kopi |
+| Mata uang | ARAH (1 Arah = 100 Langkah) |
+| Pemerintahan | Republik Musyawarah — Majelis Warga + Dewan Delapan Arah |
 | Arsitektur | Tropical modern |
-| Warga | Penonton channel YouTube @teoriwarungkopi |
+| Warga | Follower channel YouTube @teoriwarungkopi |
 
 ## 2. Filosofi ✅
-Rasa ingin tahu adalah kekuatan utama negara. Setiap warga boleh bertanya, mengusulkan, dan ikut memilih masa depan negaranya. Negara ini tidak pernah "selesai" dibangun. Ia tumbuh satu keputusan demi satu keputusan, bersama warganya.
+Rasa ingin tahu adalah kekuatan utama negara. Warga tidak hanya menonton: mereka mengusulkan, memilih, dan melihat negaranya tumbuh dari keputusan mereka sendiri. Negara ini tidak pernah "selesai". Ia dibangun satu keputusan demi satu keputusan, bersama warganya.
 
-## 3. Asal-usul 🟡 PROPOSAL
-- Di tengah lautan ada sebuah pulau tropis kosong yang tidak tercatat di peta mana pun.
-- Suatu pagi, kapal-kapal kecil membawa **1.931 orang penasaran** ke pantainya. Mereka bukan penakluk. Mereka hanya ingin tahu apa yang ada di balik bukit.
-- Malam pertama mereka tidur di pasir, tanpa satu rumah pun.
-- Dalam seminggu jumlah mereka menjadi **2.500**. Warga lalu memutuskan membangun permukiman pertama dan rumah sakit. Kampung kecil di dekat pantai itu menjadi **Kota Warungkopia**.
-- Kompas menjadi lambang negara karena warga datang dari segala arah dan memilih tujuan bersama.
+## 3. Asal-usul ✅
+- **Warungkopia sudah bernama Warungkopia sejak episode pertama.** Nama itu tidak muncul belakangan dan tidak dicetuskan oleh siapa pun di dalam cerita.
+- Di awal, Warungkopia adalah **tanah kosong**. Namanya sudah ada, wilayahnya ada, warganya ada, tetapi belum ada bangunan apa pun.
+- Penonton channel adalah warganya: **1.931 warga** di awal, lalu **2.500 warga** seminggu kemudian.
+- Karena belum ada apa-apa, kreator mengajak warga **menentukan sendiri apa yang dibangun**. Usulan pertama terbanyak adalah perumahan dan rumah sakit. Keduanya menjadi bangunan pertama yang berdiri, dan di situlah Kota Warungkopia sebagai ibu kota mulai terbentuk.
+- Inilah inti cerita serial ini: **negara yang namanya sudah ada, tetapi isinya ditentukan warganya.**
 
-Catatan: penduduk 1.931 → 2.500 dan pembangunan permukiman + RS adalah fakta serial ✅. Cerita di sekitarnya masih PROPOSAL.
+Larangan kontinuitas: jangan menceritakan Warungkopia sebagai pulau "tak bernama" atau "baru ditemukan", dan jangan menceritakan warga "memberi nama" negara ini.
 
-## 4. Kronologi
-| Tanggal | Peristiwa | Status |
-|---|---|---|
-| Nov 2026 | Pendaratan pertama: 1.931 warga | ✅ |
-| 23 Nov 2026 | Penduduk 2.500 · Kawasan Permukiman 1 & RS Republik Warungkopia berdiri (Short "2.500 Warga, 0 Rumah!") | ✅ |
-| 23 Nov 2026 | Identitas negara ditetapkan (Kompas Delapan Arah, mata uang ARAH) | ✅ |
-| Akhir Nov 2026 | Voting pembangunan berikutnya → video panjang 16:9 | ⏳ |
+## 4. Kronologi ✅
+| Waktu | Peristiwa |
+|---|---|
+| Pertengahan Nov 2026 | Warungkopia dimulai sebagai tanah kosong; 1.931 warga |
+| 23 Nov 2026 | Warga mencapai 2.500. Bangunan pertama berdiri sesuai permintaan warga: **Kawasan Permukiman 1** dan **RS Republik Warungkopia** (Short "2.500 Warga, 0 Rumah!") |
+| 23 Nov 2026 | Identitas negara ditetapkan: Kompas Delapan Arah, bendera, lambang, mata uang ARAH. Sistem Republik Musyawarah dan Dewan Delapan Arah disahkan. |
+| Akhir Nov 2026 | Voting pertama dengan siklus resmi → video panjang 16:9 |
 
-## 5. Geografi & peta
-- ✅ Satu pulau tropis: pegunungan di utara, danau di tengah, pantai pendaratan di selatan.
-- ✅ Peta masterplan (visi akhir) sudah disetujui: bandara, pelabuhan, kawasan kesehatan, pendidikan, inovasi, dan energi bersih. Nama pulau dan danau mengikuti peta masterplan. **Perlu diisi:** [nama pulau] dan [nama danau].
-- ✅ Kondisi sekarang: Kota Warungkopia (Permukiman 1 + RS) di barat daya pulau, dekat pantai pendaratan. Sisanya masih hutan.
-- 🟡 Kawasan masterplan yang belum dibangun digambar abu-abu dengan tanda "?" di peta video.
+## 5. Geografi & peta ✅
+- Warungkopia adalah satu pulau tropis: pegunungan di utara, danau di tengah, pantai di selatan.
+- **Peta masterplan** adalah visi akhir dan sudah disetujui kreator. Nama-nama di peta itu (pulau, danau, unsur alam lain) berlaku, **kecuali** label ibu kota "Kopiantara" (yang berlaku: **Kota Warungkopia**) dan bendera merah-putih di peta (yang berlaku: bendera Kompas Delapan Arah).
+- Kondisi sekarang: Kota Warungkopia (Permukiman 1 + RS) di barat daya pulau, dekat pantai. Sisanya masih hutan dan tanah kosong.
+- Di peta video, kawasan masterplan yang belum dibangun digambar abu-abu dengan tanda "?".
 
-## 6. Sistem pemerintahan → [GOVERNMENT_SYSTEM.md](GOVERNMENT_SYSTEM.md) 🟡
-Ringkas: warga memutuskan lewat voting, Dewan Delapan Arah (The Kopians) menjalankan.
+## 6. Pemerintahan ✅ → [GOVERNMENT_SYSTEM.md](GOVERNMENT_SYSTEM.md)
+**Republik Musyawarah.** Warga memutuskan lewat voting (Majelis Warga), lalu The Kopians menjalankannya sebagai **Dewan Delapan Arah**. Belum ada presiden karena negara masih muda. Pemilihan presiden disimpan untuk episode besar di masa depan.
 
-## 7. Kewarganegaraan 🟡 PROPOSAL
-- **Warga**: setiap follower channel. Jumlah penduduk = jumlah follower saat episode dibuat (dibulatkan untuk narasi).
+## 7. Kewarganegaraan ✅
+- **Warga**: setiap follower channel. Jumlah penduduk = jumlah follower saat episode dibuat.
 - **Warga Perintis**: 1.931 warga pertama (sebutan kehormatan, tanpa daftar nama).
-- **Warga Aktif**: yang ikut voting atau mengirim usulan di komentar. Tidak dihitung per orang, hanya dipakai di cerita.
+- **Warga Aktif**: yang ikut voting atau mengusulkan di komentar. Hanya dipakai di cerita, tidak dihitung per orang.
 - Tidak ada data pribadi warga yang disimpan atau ditampilkan.
 
-## 8. Pembangunan kota → [CITY_DEVELOPMENT.md](CITY_DEVELOPMENT.md)
-✅ Aturan tetap:
+## 8. Pembangunan kota ✅ → [CITY_DEVELOPMENT.md](CITY_DEVELOPMENT.md)
 - Kota dibangun bertahap; tidak boleh tiba-tiba lengkap.
 - Setiap episode menghasilkan sesuatu yang terlihat di peta.
-- Nama kota baru hanya dari usulan dan voting warga.
+- Yang dibangun selalu hasil usulan dan voting warga.
+- **Kota baru boleh ada** setelah penduduk mencapai 10.000 dan Kota Warungkopia sudah di tahap Ibu Kota. Namanya hanya dari usulan dan voting warga (aturan "satu kota saja" di v1.1 dicabut).
 
-## 9. Ekonomi & mata uang → [CURRENCY_SYSTEM.md](CURRENCY_SYSTEM.md)
-✅ Nama: ARAH. 🟡 Pecahan, sub-satuan, dan tokoh per lembar.
+## 9. Ekonomi & mata uang ✅ → [CURRENCY_SYSTEM.md](CURRENCY_SYSTEM.md)
+ARAH (kode ARH), 1 Arah = 100 Langkah. Delapan pecahan, masing-masing menampilkan satu tokoh The Kopians.
 
-## 10. Tokoh → [CHARACTER_BIBLE.md](CHARACTER_BIBLE.md)
-✅ The Kopians: Koko, Bubu, Nara, Tiko, Mimi, Moci, Pak Jabrik, Pak Bolo (Character Sheet v1.0).
+## 10. Tokoh ✅ → [CHARACTER_BIBLE.md](CHARACTER_BIBLE.md)
+The Kopians: Koko, Bubu, Nara, Tiko, Mimi, Moci, Pak Jabrik, Pak Bolo (Character Sheet v1.0).
 
 ## 11. Aturan kontinuitas ✅
-1. Kota Warungkopia selalu ibu kota.
-2. Slogan tidak berubah.
-3. Bangunan yang sudah dibangun tetap ada dan tetap di tempatnya di episode berikutnya, kecuali ceritanya menjelaskan perubahannya.
-4. Jumlah penduduk hanya naik atau turun mengikuti data follower.
-5. Desain tokoh mengikuti Character Sheet; perubahan harus disetujui.
-6. Bendera: hanya putih, biru, kuning, oranye; tanpa hitam; tanpa cangkir atau biji kopi.
-7. Tidak meniru negara, tokoh, atau simbol nyata.
-8. Setiap episode ditutup dengan ajakan warga mengusulkan atau memilih.
-9. Keputusan PROPOSAL tidak boleh dipakai sebagai fakta di video sebelum disetujui.
+1. Nama **Warungkopia ada sejak awal**; yang dibangun bersama warga adalah isinya.
+2. Kota Warungkopia selalu ibu kota.
+3. Slogan tidak berubah.
+4. Bangunan yang sudah berdiri tetap ada dan tetap di tempatnya, kecuali cerita menjelaskan perubahannya.
+5. Jumlah penduduk mengikuti data follower.
+6. Desain tokoh mengikuti Character Sheet; perubahan harus disetujui.
+7. Bendera: hanya putih, biru, kuning, oranye; tanpa hitam; tanpa cangkir atau biji kopi.
+8. Tidak meniru negara, tokoh, atau simbol nyata.
+9. Setiap episode ditutup dengan ajakan warga mengusulkan atau memilih.
+10. Yang berstatus PROPOSAL tidak boleh tampil sebagai fakta di video.
+11. Kalau ada pertentangan antardokumen, **WORLD_BIBLE.md versi terbaru** yang berlaku.

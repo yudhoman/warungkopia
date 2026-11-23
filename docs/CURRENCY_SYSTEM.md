@@ -4,10 +4,10 @@
 
 ✅ Filosofi: setiap uang menunjukkan arah tujuan pembangunan.
 
-## Sub-satuan 🟡 PROPOSAL
+## Sub-satuan ✅
 **1 Arah = 100 Langkah.** Alasannya: arah menunjukkan tujuan, langkah adalah cara mencapainya.
 
-## Pecahan & tokoh 🟡 PROPOSAL
+## Pecahan & tokoh ✅
 Setiap tokoh The Kopians muncul tepat satu kali.
 
 | Pecahan | Jenis | Tokoh | Tempat / simbol | Warna |

@@ -1,11 +1,11 @@
 # Sistem Pemerintahan & Voting Warga
-Status: 🟡 **PROPOSAL** — pilih satu model.
+Status: ✅ **RESMI** — Model 1 *Republik Musyawarah* disetujui 23 Nov 2026.
 
-## Pilihan model
+## Pilihan model (arsip)
 
 | | Model | Inti | Kelebihan | Catatan |
 |---|---|---|---|---|
-| **1 (rekomendasi)** | **Republik Musyawarah** | Warga = Majelis Warga (memutuskan lewat voting). The Kopians = **Dewan Delapan Arah** (menjalankan keputusan, masing-masing memegang satu bidang). Belum ada presiden. | Paling cocok dengan "warga menentukan". Konflik antar-Kopian jadi bahan cerita. Pemilihan presiden bisa jadi episode besar di masa depan. | Perlu menjelaskan "kenapa belum ada presiden" (jawaban: negara masih muda). |
+| **1 ✅ DIPILIH** | **Republik Musyawarah** | Warga = Majelis Warga (memutuskan lewat voting). The Kopians = **Dewan Delapan Arah** (menjalankan keputusan, masing-masing memegang satu bidang). Belum ada presiden. | Paling cocok dengan "warga menentukan". Konflik antar-Kopian jadi bahan cerita. Pemilihan presiden bisa jadi episode besar di masa depan. | Perlu menjelaskan "kenapa belum ada presiden" (jawaban: negara masih muda). |
 | 2 | Presiden + Dewan | Warga memilih satu Kopian jadi Presiden pertama lewat voting; yang lain jadi menteri. | Drama pemilu seru, episode langsung jadi. | Satu tokoh jadi terlalu dominan; risiko terasa politis. |
 | 3 | Penjaga Kompas bergilir | Kepala negara simbolis berganti tiap bulan di antara 8 Kopians. | Semua tokoh dapat panggung. | Kurang terasa seperti negara; aturannya rumit dijelaskan. |
 
@@ -30,7 +30,7 @@ Delapan The Kopians, masing-masing memegang satu arah mata angin dan satu bidang
 
 Dewan tidak boleh membatalkan hasil voting warga. Dewan hanya memutuskan kalau hasil voting seri, dan keputusannya diumumkan di episode.
 
-## Siklus voting mingguan
+## Siklus voting mingguan ✅
 | Hari | Kegiatan |
 |---|---|
 | Kamis | Episode tayang; penutup video berisi pertanyaan "bangun apa berikutnya?" |

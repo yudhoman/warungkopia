@@ -1,7 +1,12 @@
 # Changelog — Republik Warungkopia
 
 ## 2026-11-23
-### Tahap 2 — World Building (draf)
+### Tahap 2 — World Building ✅
+- World Bible v2.1 jadi acuan tunggal (menggantikan v1.1). Koreksi asal-usul: nama Warungkopia ada sejak awal; warga menentukan isinya
+- Disahkan: Republik Musyawarah + Dewan Delapan Arah, siklus voting mingguan, ARAH (1 Arah = 100 Langkah) + 8 pecahan, aturan kota baru (≥10.000 warga)
+- Tahap negara diganti: Tanah Kosong → Permukiman → Ibu Kota → Peradaban → Republik Penuh
+
+### Tahap 2 — draf awal
 - `docs/WORLD_BIBLE.md` v2.0, `GOVERNMENT_SYSTEM.md`, `CITY_DEVELOPMENT.md`, `CURRENCY_SYSTEM.md`, `CHARACTER_BIBLE.md`, dengan label ✅ RESMI / 🟡 PROPOSAL
 - `data/state.json`: registri penduduk, kota, dan bangunan (untuk website Tahap 3)
 

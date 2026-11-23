@@ -54,7 +54,7 @@ Karakter resmi (jangan diubah tanpa persetujuan): Koko (optimis), Bubu (polos, s
 
 ## 5. WORLD BIBLE
 
-Dokumen resmi: `docs/WORLD_BIBLE.md` — asal-usul negara, sejarah Kota Warungkopia, filosofi, slogan, sistem pemerintahan, kewarganegaraan, pembangunan kota, voting warga, ekonomi & mata uang, geografi & peta, sejarah karakter, aturan kontinuitas.
+Dokumen resmi: `docs/WORLD_BIBLE.md` (v2.1 — acuan tunggal; menggantikan semua bible sebelumnya) — asal-usul negara, sejarah Kota Warungkopia, filosofi, slogan, sistem pemerintahan, kewarganegaraan, pembangunan kota, voting warga, ekonomi & mata uang, geografi & peta, sejarah karakter, aturan kontinuitas.
 
 Keputusan yang belum disetujui kreator ditandai **PROPOSAL**.
 
@@ -98,7 +98,7 @@ warungkopia/
 | Tahap | Isi | Status |
 |---|---|---|
 | 1 — Foundation | Identitas negara, logo, bendera, lambang, mata uang, identitas Kota Warungkopia | ✅ Alternatif B disetujui |
-| 2 — World Building | World Bible, sistem pemerintahan, warga & voting, perkembangan kota | 🟡 Draf siap, menunggu persetujuan |
+| 2 — World Building | World Bible, sistem pemerintahan, warga & voting, perkembangan kota | ✅ Disetujui (World Bible v2.1) |
 | 3 — Digital Foundation | Website awal, peta, profil karakter, dashboard pembangunan | — |
 | 4 — Development | Fondasi animasi serial, sistem episode, dokumentasi | Sebagian (engine & episode Short sudah ada) |
 
