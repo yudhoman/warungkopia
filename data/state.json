@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "country": "Republik Warungkopia",
   "capital": "Warungkopia",
   "slogan": "Dunia terlalu luas untuk tidak penasaran.",
@@ -16,6 +16,10 @@
     {
       "date": "2026-11-23",
       "value": 2500
+    },
+    {
+      "date": "2026-11-25",
+      "value": 2536
     }
   ],
   "cities": [
@@ -50,11 +54,35 @@
       "y": -30,
       "icon": "hospital",
       "short": "RS Republik"
+    },
+    {
+      "id": "B003",
+      "city": "C001",
+      "name": "Sekolah Kenapa",
+      "short": "Sekolah Kenapa",
+      "detail": "Atap tinggi berlubang angin, jendela dua sisi, panel surya, tangki air hujan, lonceng dari tabung bekas",
+      "episode": 3,
+      "stage": "Permukiman",
+      "x": -480,
+      "y": 430,
+      "icon": "school"
+    },
+    {
+      "id": "B004",
+      "city": "C001",
+      "name": "Pasar Delapan Penjuru",
+      "short": "Pasar 8 Penjuru",
+      "detail": "Pasar bundar dengan 8 gerbang (satu untuk setiap arah mata angin). Tempat transaksi pertama mata uang ARAH",
+      "episode": 3,
+      "stage": "Permukiman",
+      "x": 70,
+      "y": 770,
+      "icon": "market"
     }
   ],
   "next": {
-    "status": "pra-produksi",
-    "episode": 3,
+    "status": "menunggu usulan warga: balai warga mau seperti apa?",
+    "episode": 4,
     "format": "video panjang 16:9"
   },
   "episodes": [
@@ -78,8 +106,19 @@
     {
       "no": 3,
       "format": "long-16:9",
+      "summary": "Warga baru (Rizki, Rizka, Al, Della, Gavendra, dan keluarganya). Sekolah Kenapa & Pasar Delapan Penjuru dibangun. Transaksi ARAH pertama. Tinggal balai warga untuk jadi Ibu Kota.",
+      "date": "2026-11-25",
+      "population": 2536,
+      "built": [
+        "B003",
+        "B004"
+      ]
+    },
+    {
+      "no": 4,
+      "format": "long-16:9",
       "status": "pra-produksi",
-      "summary": "Lanjutan Episode 2"
+      "summary": "Balai warga — syarat terakhir menjadi Ibu Kota"
     }
   ],
   "voting": [
@@ -89,6 +128,13 @@
       "method": "komentar",
       "winner": "Perumahan & Rumah Sakit",
       "built_in": 2
+    },
+    {
+      "episode": 2,
+      "question": "Bangunan apa berikutnya?",
+      "method": "komentar",
+      "winner": "Sekolah & Pasar",
+      "built_in": 3
     }
   ],
   "links": {

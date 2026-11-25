@@ -39,7 +39,13 @@ export function drawMap(svg, state, onPick) {
   for (const b of state.buildings) {
     const g = el('g', { class: 'marker', tabindex: 0, role: 'button', 'aria-label': b.name }, svg);
     el('circle', { class: 'ring', cx: b.x, cy: b.y, r: 110, fill: '#ffc845', stroke: '#fff', 'stroke-width': 10 }, g);
-    if (b.icon === 'house') {
+    if (b.icon === 'school') {
+      el('rect', { x: b.x - 55, y: b.y - 30, width: 110, height: 70, rx: 6, fill: '#fff' }, g);
+      el('polygon', { points: `${b.x - 65},${b.y - 30} ${b.x},${b.y - 75} ${b.x + 65},${b.y - 30}`, fill: '#2f8c8c' }, g);
+      el('text', { x: b.x, y: b.y + 30, 'text-anchor': 'middle', 'font-family': 'Poppins', 'font-weight': 800, 'font-size': 44, fill: '#2f8c8c' }, g).textContent = '?';
+    } else if (b.icon === 'market') {
+      el('circle', { cx: b.x, cy: b.y, r: 60, fill: '#fff', stroke: '#ef6f3c', 'stroke-width': 16, 'stroke-dasharray': '30 14' }, g);
+    } else if (b.icon === 'house') {
       el('polygon', { points: `${b.x - 50},${b.y - 5} ${b.x},${b.y - 55} ${b.x + 50},${b.y - 5}`, fill: '#c9623f' }, g);
       el('rect', { x: b.x - 38, y: b.y - 5, width: 76, height: 50, fill: '#fff' }, g);
       el('rect', { x: b.x - 10, y: b.y + 15, width: 20, height: 30, fill: '#8a5a35' }, g);
@@ -48,7 +54,7 @@ export function drawMap(svg, state, onPick) {
       el('circle', { cx: b.x, cy: b.y, r: 30, fill: '#2f6fb5' }, g);
       el('text', { x: b.x, y: b.y + 14, 'text-anchor': 'middle', 'font-family': 'Poppins', 'font-weight': 800, 'font-size': 40, fill: '#fff' }, g).textContent = 'H';
     }
-    const ly = b.icon === 'hospital' ? b.y - 140 : b.y + 160;
+    const ly = b.icon === 'hospital' || b.icon === 'school' ? b.y - 140 : b.y + 160;
     el('text', { x: b.x, y: ly, 'text-anchor': 'middle', 'font-family': 'Poppins', 'font-weight': 800, 'font-size': 36, fill: '#fff', stroke: '#1b2a5a', 'stroke-width': 8, 'paint-order': 'stroke' }, g).textContent = (b.short || b.name).toUpperCase();
     pick(g, { kind: 'built', ...b });
   }

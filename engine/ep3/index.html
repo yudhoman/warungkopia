@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:P800;src:url(p800.woff2);font-weight:800}
+@font-face{font-family:P600;src:url(p600.woff2);font-weight:600}
+html,body{margin:0;background:#000}canvas{display:block}
+</style></head><body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="lib.js"></script>
+<script src="lib2.js"></script>
+<script src="lib3.js"></script>
+<script src="scenes.js"></script>
+<script>
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+// ---------- subtitles
+const SEGS = [[0.05, 4.45, "Setiap orang yang subscribe channel ini… otomatis jadi warga negara ini."], [4.8, 7.25, "Selamat datang di Republik Warungkopia."], [7.85, 11.03, "Minggu lalu, warga kami 2.500 orang."], [11.44, 14.75, "Hari ini… 2.536."], [15.08, 16.69, "Tiga puluh enam warga baru."], [17.0, 19.66, "Dan mereka datang membawa dua permintaan."], [20.07, 24.38, "Pagi itu, Mimi berdiri di gerbang kota sambil membawa daftar panjang."], [24.72, 27.96, "Kalau ada kabar baru, Mimi selalu jadi yang pertama tahu."], [28.43, 31.13, "Warga baru pertama yang ia panggil… Rizki!"], [31.46, 33.05, "Lalu adiknya, Rizka."], [33.39, 38.53, "Lalu si kecil Al… yang masih bayi, dan sudah jadi warga negara sebelum bisa jalan."], [39.04, 39.55, "Tapi tunggu."], [39.95, 44.59, "Di belakang mereka masih ada kakak. Abang. Ibu. Dan ayah."], [44.97, 49.09, "Tujuh orang. Satu keluarga. Subscribe dan like sekaligus."], [49.45, 51.17, "Mimi sampai kehabisan kertas."], [51.54, 53.84, "Lalu datang Della… dan Gavendra."], [54.19, 55.6, "Selamat datang, warga baru."], [55.88, 60.69, "Mulai hari ini, suara kalian ikut menentukan apa yang dibangun di negeri ini."], [61.0, 63.97, "Dan suara pertama mereka langsung terdengar keras."], [64.35, 67.74, "Di pantai, anak-anak belajar menulis… di atas pasir."], [68.08, 70.55, "Setiap ombak datang, pelajarannya hilang."], [70.91, 73.18, "Sementara itu, Bubu kelaparan."], [73.52, 78.4, "Satu-satunya cara membeli makanan adalah menunggu perahu nelayan."], [78.72, 82.11, "Dan hari ini… perahunya terlambat."], [82.48, 83.82, "Hasil voting warga keluar."], [84.08, 85.93, "Dua bangunan teratas: sekolah. Dan pasar."], [86.39, 88.28, "Dewan Delapan Arah langsung rapat."], [88.66, 93.8, "Moci, yang mengurus pendidikan, mengajukan pertanyaan andalannya: \"Biayanya dari mana?\""], [94.22, 97.93, "Nara membuka clipboard. Semua sudah dihitung."], [98.23, 99.84, "Koko? Sudah lari duluan membawa sekop."], [100.22, 102.05, "Bangunan pertama: sekolah."], [102.41, 104.76, "Nara menandai lahan di sebelah permukiman."], [105.09, 108.02, "Dekat rumah, supaya anak-anak tidak perlu jalan jauh."], [108.34, 113.29, "Atapnya tinggi dan berlubang angin, supaya kelas tetap sejuk tanpa pendingin ruangan."], [113.62, 120.05, "Jendelanya lebar di dua sisi, supaya udara masuk dari satu arah dan keluar dari arah lain."], [120.24, 122.16, "Di atapnya, panel surya."], [122.36, 126.51, "Di bawah tanah, tangki penampung air hujan untuk menyiram kebun sekolah."], [126.51, 128.56, "Tiko menyumbang satu benda terakhir: lonceng."], [128.87, 132.83, "Dibuat dari tabung bekas, suaranya bisa terdengar sampai pantai."], [133.44, 135.48, "Sekarang sekolah ini butuh nama."], [135.8, 142.11, "Dan di negara yang slogannya \"Dunia terlalu luas untuk tidak penasaran\"… namanya hanya bisa satu:"], [142.43, 143.76, "Sekolah Kenapa."], [144.09, 148.74, "Karena di sini, setiap pelajaran dimulai dengan satu pertanyaan. Kenapa?"], [149.2, 150.74, "Lonceng pertama berbunyi."], [151.06, 152.81, "Rizki dan Rizka masuk kelas."], [153.07, 155.97, "Si kecil Al… masih tidur di gendongan ibunya."], [156.35, 158.01, "Bangunan kedua: pasar."], [158.37, 163.93, "Bubu, yang mengurus pangan dan pasar, sudah menunggu dari subuh."], [164.24, 167.67, "Pasarnya dibangun di tengah, di antara pantai dan permukiman."], [167.87, 174.17, "Bentuknya bundar, dengan delapan gerbang. Satu gerbang untuk setiap arah mata angin."], [174.47, 179.79, "Dari mana pun warga datang… selalu ada pintu yang menghadap rumahnya."], [180.43, 182.19, "Namanya: Pasar Delapan Penjuru."], [182.56, 186.87, "Di sisi selatan, dekat laut, Pak Jabrik membuka lapak ikan pertama."], [187.29, 189.72, "Sambil bercerita, tentu saja. \"Dulu, waktu laut masih…\""], [190.13, 192.16, "Di sisi tenggara, lapak makanan."], [192.59, 196.75, "Bubu mencicipi semuanya. Untuk keperluan pengawasan, katanya."], [197.85, 200.58, "Lalu terjadilah sesuatu yang bersejarah."], [201.02, 204.22, "Untuk pertama kalinya, mata uang ARAH dipakai."], [204.65, 208.5, "Gavendra membeli sebungkus nasi… seharga 3 Arah."], [208.91, 212.22, "Transaksi pertama dalam sejarah Republik Warungkopia."], [212.54, 213.55, "Dan Pak Bolo?"], [213.84, 217.88, "Ia masuk lewat gerbang utara… dan keluar lewat gerbang utara lagi."], [218.27, 221.06, "Delapan gerbang, dan ia tetap tersesat."], [221.52, 224.93, "Malam itu, peta Warungkopia bertambah dua titik."], [225.31, 230.72, "Kawasan Permukiman. Rumah Sakit. Sekolah Kenapa. Pasar Delapan Penjuru."], [231.72, 234.22, "Tapi Nara menemukan sesuatu di catatannya."], [234.69, 242.2, "Menurut aturan negara, Warungkopia baru resmi menjadi ibu kota kalau punya pasar, sekolah… dan balai warga."], [242.65, 245.25, "Tempat warga berkumpul dan memutuskan bersama."], [245.81, 246.65, "Pasar sudah. Sekolah sudah."], [247.03, 249.69, "Tinggal satu bangunan lagi."], [249.69, 252.48, "Kamu belum jadi warga? Subscribe sekarang."], [252.75, 260.8, "Kamu akan jadi warga ke-2.537… dan suaramu ikut menentukan apa yang dibangun."], [261.2, 266.13, "Sudah jadi warga? Tulis di komentar: balai warga kita nanti… mau seperti apa?"], [266.55, 269.32, "Dunia terlalu luas untuk tidak penasaran."]];
+const KEY = new Set(['subscribe','warga','2.500','2.536','2.537','rizki','rizka','al','della','gavendra','tujuh','keluarga','sekolah','pasar','kenapa','kenapa?','delapan','penjuru','arah','lonceng','balai','satu','pasir','kelaparan','terlambat','bersejarah','tersesat']);
+function syl(w){ if(/2\.5/.test(w))return 10; if(/^3$/.test(w))return 2; const m=w.toLowerCase().match(/[aiueo]+/g); return Math.max(1,m?m.length:1); }
+const CHUNKS=[];
+for(const [a,b,txt] of SEGS){
+  const ws=txt.split(' '); const grp=[];
+  for(let i=0;i<ws.length;i++){ const clean=ws[i].replace(/[^\wÀ-ÿ.]/g,''); if(clean.length<=3 && i<ws.length-1 && !/IGD/.test(ws[i])){ ws[i+1]=ws[i]+' '+ws[i+1]; continue;} grp.push(ws[i]); }
+  const tot=grp.reduce((s,w)=>s+w.split(' ').reduce((q,x)=>q+syl(x),0),0); let acc=0;
+  grp.forEach(w=>{ const n=w.split(' ').reduce((q,x)=>q+syl(x),0); CHUNKS.push({t0:a+(b-a)*acc/tot,t1:a+(b-a)*(acc+n)/tot,w}); acc+=n; });
+}
+CHUNKS.forEach((ch,i)=>{ const nx=CHUNKS[i+1]; ch.end = nx && nx.t0 - ch.t1 < .5 ? nx.t0 : ch.t1+.25; });
+function subtitle(c,t){
+  if(t>266.4)return; const ch=CHUNKS.find(x=>t>=x.t0&&t<x.end); if(!ch)return;
+  const k=eo(seg(t,ch.t0,ch.t0+.09)), s=lerp(.82,1,k);
+  c.save(); c.translate(W/2,965); c.scale(s,s);
+  const words=ch.w.split(' '); c.font=F(800,70); c.textBaseline='middle';
+  const widths=words.map(w=>c.measureText(w).width), sp=c.measureText(' ').width, tw=widths.reduce((a,b)=>a+b,0)+sp*(words.length-1);
+  let x=-tw/2;
+  words.forEach((w,i)=>{ const clean=w.toLowerCase().replace(/[^a-z0-9.]/g,'').replace(/\.$/,''); const col=KEY.has(clean)?C.yellow:'#fff';
+    c.textAlign='left'; c.lineJoin='round'; c.strokeStyle=C.navy; c.lineWidth=15; c.strokeText(w,x,0); c.fillStyle=col; c.fillText(w,x,0); x+=widths[i]+sp; });
+  c.restore();
+}
+// ---------- overlays
+const grain=document.createElement('canvas'); grain.width=540; grain.height=960;
+(function(){const g=grain.getContext('2d'),d=g.createImageData(540,960),r=R(1);for(let i=0;i<d.data.length;i+=4){const v=r()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255;}g.putImageData(d,0,0);})();
+function finish(c,t){
+  // grain
+  c.save(); c.globalAlpha=.045; c.globalCompositeOperation='overlay'; const o=Math.floor(t*30)%4; c.drawImage(grain,-o*20,-o*13,W+80,H+52); c.restore();
+  // vignette
+  const v=c.createRadialGradient(W/2,H/2,H*.3,W/2,H/2,H*.75); v.addColorStop(0,'rgba(0,0,0,0)'); v.addColorStop(1,'rgba(10,10,35,.38)'); c.fillStyle=v; c.fillRect(0,0,W,H);
+  if(t>20 && t<249.6){ const n = 2536; c.save(); c.globalAlpha=.95; rr(c,40,36,370,70,35,'rgba(27,31,75,.85)'); compassIcon(c,80,71,26); c.font=F(800,30); c.fillStyle='#fff'; c.textAlign='left'; c.textBaseline='middle'; c.fillText('WARGA',118,72); c.fillStyle=C.yellow; c.fillText(n.toLocaleString('id-ID'),250,72); c.restore(); }
+  subtitle(c,t);
+  // watermark
+  c.save(); c.font=F(800,34); c.textAlign='center'; c.textBaseline='middle'; c.lineJoin='round'; c.strokeStyle='rgba(27,31,75,.75)'; c.lineWidth=8; c.textAlign='right'; c.strokeText('@teoriwarungkopi',W-40,H-36); c.fillStyle='rgba(255,255,255,.9)'; c.fillText('@teoriwarungkopi',W-40,H-36);
+  if(t>266.4){ const k=back(seg(t,53.6,53.9)); c.translate(W-360,H-40); c.scale(k,k); rr(c,-20,-14,40,32,8,'#fff'); c.strokeStyle='#fff'; c.lineWidth=5; c.beginPath(); c.arc(22,2,9,-PI/2,PI/2); c.stroke(); rr(c,-14,-8,28,6,2,'#8a5a35'); for(let i=0;i<2;i++){c.strokeStyle='rgba(255,255,255,.8)';c.lineWidth=4;c.beginPath();const o=Math.sin(t*4+i)*4;c.moveTo(-6+i*12,-22);c.quadraticCurveTo(-12+i*12+o,-34,-6+i*12,-46);c.stroke();} }
+  c.restore();
+}
+function render(t){
+  ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha=1; ctx.filter='none'; ctx.globalCompositeOperation='source-over';
+  ctx.fillStyle='#000'; ctx.fillRect(0,0,W,H);
+  const s=SC.find(x=>t>=x[1]&&t<x[2])||SC[SC.length-1];
+  ctx.save(); window[s[0]](ctx,t); ctx.restore();
+  ctx.filter='none'; ctx.globalAlpha=1;
+  finish(ctx,t);
+}
+window.frameJPG=(t)=>{render(t);return cv.toDataURL('image/jpeg',.92).split(',')[1];};
+</script></body></html>

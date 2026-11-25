@@ -34,7 +34,7 @@ async function init() {
   $('capital').textContent = state.capital;
   $('s-build').textContent = state.buildings.length;
   $('s-stage').textContent = state.stage;
-  $('s-ep').textContent = (state.episodes || []).filter(e => e.format !== 'long-16:9' || e.status !== 'pra-produksi').length;
+  $('s-ep').textContent = (state.episodes || []).filter(e => e.status !== 'pra-produksi').length;
   $('updated').textContent = new Date(state.updated).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
   if (state.links) { $('yt').href = state.links.youtube; $('community').href = state.links.community; }
 

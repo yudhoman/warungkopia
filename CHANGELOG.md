@@ -1,5 +1,12 @@
 # Changelog — Republik Warungkopia
 
+## 2026-11-25
+### Episode 3 (video panjang 16:9, 4:30)
+- Penduduk 2.536. Warga baru disebut: Rizki, Rizka, Al, kakak, abang, ibu, ayah, Della, Gavendra
+- Dibangun: **Sekolah Kenapa** (B003) dan **Pasar Delapan Penjuru** (B004). Transaksi ARAH pertama: 1 nasi bungkus = 3 Arah
+- Syarat tahap Ibu Kota tinggal **balai warga**
+- Engine 16:9 di `engine/ep3/`
+
 ## 2026-11-23
 ### Tahap 3 — Website v1 ✅
 - `index.html` + `src/` (main, city, characters, voting, styles): beranda dengan penduduk, peta interaktif, pembangunan, voting, Dewan Delapan Arah, sejarah episode, identitas negara

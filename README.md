@@ -13,7 +13,8 @@ Negara imajiner channel YouTube **@teoriwarungkopi**. Penonton adalah warga, dan
 |---|---|---|
 | 1 · Short | 1.931 | — (ibu kota masih kosong; warga diajak mengusulkan) |
 | 2 · Short "2.500 Warga, 0 Rumah!" | 2.500 | Kawasan Permukiman 1 · RS Republik Warungkopia |
-| 3 · Video panjang 16:9 | — | pra-produksi |
+| 3 · Video panjang 16:9 | 2.536 | Sekolah Kenapa · Pasar Delapan Penjuru |
+| 4 · Video panjang 16:9 | — | pra-produksi (balai warga) |
 
 ## Website
 🌐 https://yudhoman.github.io/warungkopia/ — isi diambil dari `data/state.json`; perbarui file itu setiap episode.
